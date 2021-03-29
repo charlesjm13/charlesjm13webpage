@@ -4,7 +4,7 @@
       Welcome!
     </div>
     <div style = "padding-bottom: 10px;">
-      <img alt="Snow" src="./assets/snow.png" style="height: auto; max-width: 50%;">
+      <img alt="Snow" src="./assets/face.png" style="height: auto; max-width: 50%;">
     </div>
    
         <img alt="Vue logo" src="./assets/CharlesMennerickResume.png">
@@ -24,6 +24,7 @@ export default {
 .home {
  text-align: center;
  background-color: #727474;
- color: white;
+ color: #c6c9c7;
+ max-width: 50%;
 }
 </style>
