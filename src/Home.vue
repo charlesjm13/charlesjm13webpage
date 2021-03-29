@@ -4,18 +4,34 @@
       Welcome!
     </div>
     <div style = "padding-bottom: 10px;">
-      <img alt="Snow" src="./assets/face.png" style="height: auto; max-width: 50%;">
+      <img alt="Face" src="./assets/face.png" style="height: auto; max-width: 50%;">
     </div>
-   
-        <img alt="Vue logo" src="./assets/CharlesMennerickResume.png">
-
+    <div style="font-weight: bold; font-size: 40px; font-family: cursive; padding-bottom: 20px;" class="w3-cursive">
+      My name is Charles Mennerick. I am from Saint Louis, Missouri. I am a computer science major and chemistry minor. I attend Knox College in Galesburg, Illinois.
+    </div>
+    <div style="padding-bottom: 20px;">
+      <button 
+        v-on:click="showResume = !showResume"
+        x-large
+        >
+        Toggle Resume
+      </button>
+    </div>
+    <div v-if="showResume">
+        <img alt="Resume" src="./assets/CharlesMennerickResume.png" style="height: auto; max-width: 75%; margin: auto;">
+    </div>
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'Home'
+  name: 'Home',
+  data() {
+    return {
+      showResume: false
+    }
+  }
 
 }
 </script>
@@ -26,5 +42,6 @@ export default {
  background-color: #727474;
  color: #c6c9c7;
  max-width: 50%;
+ margin: auto;
 }
 </style>
