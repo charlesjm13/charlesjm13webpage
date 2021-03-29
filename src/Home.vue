@@ -12,13 +12,13 @@
     <div style="padding-bottom: 20px;">
       <button 
         v-on:click="showResume = !showResume"
-        x-large
+        style="font-size: 40px;"
         >
         Toggle Resume
       </button>
     </div>
     <div v-if="showResume">
-        <img alt="Resume" src="./assets/CharlesMennerickResume.png" style="height: auto; max-width: 75%; margin: auto;">
+        <img alt="Resume" src="./assets/CharlesMennerickResume.png" style="height: auto; max-width: 100%; margin: auto;">
     </div>
   </div>
 </template>
@@ -41,7 +41,8 @@ export default {
  text-align: center;
  background-color: #727474;
  color: #c6c9c7;
- max-width: 70%;
+ max-width: auto;
+ max-height: auto;
  margin: auto;
 }
 </style>
