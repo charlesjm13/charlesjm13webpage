@@ -4,9 +4,9 @@
       Welcome!
     </div>
     <div style = "padding-bottom: 10px;">
-      <img alt="Face" src="./assets/face.png" style="height: auto; max-width: 50%;">
+      <img alt="Face" src="./assets/face.png" style="height: auto; max-width: 25%;">
     </div>
-    <div style="font-weight: bold; font-size: 40px; font-family: cursive; padding-bottom: 20px;" class="w3-cursive">
+    <div style="font-weight: bold; font-size: 40px; font-family: cursive; padding-bottom: 20px; max-width: 50%;" class="w3-cursive">
       My name is Charles Mennerick. I am from Saint Louis, Missouri. I am a computer science major and chemistry minor. I attend Knox College in Galesburg, Illinois.
     </div>
     <div style="padding-bottom: 20px;">
