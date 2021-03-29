@@ -1,28 +1,27 @@
 <template>
-  <div id="home">
-    <b-tabs title="Home" active>
-      <p>Welcome to my webpage</p>
-    </b-tabs>
-    <b-tabs title="About Me" active>
-      <p>My name is Charles</p>
-    </b-tabs>
-    <b-tabs title="My Resume" active>
-      <img alt="Vue logo" src="./assets/CharlesMennerickResume.png">
-    </b-tabs>
+  <div class="home">
+    <div style="font-weight: bold; font-size: 40px; font-family: cursive;" class="w3-cursive">
+      Welcome!
+      <img alt="Snow" src="./assets/snow.jpg">
+    </div>
+   
+        <img alt="Vue logo" src="./assets/CharlesMennerickResume.png">
+
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'Home',
+  name: 'Home'
 
 }
 </script>
 
 <style>
-#home {
- margin: auto; 
+.home {
  text-align: center;
+ background-color: #727474;
+ color: white;
 }
 </style>
