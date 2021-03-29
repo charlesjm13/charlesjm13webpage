@@ -1,8 +1,10 @@
 <template>
   <div class="home">
-    <div style="font-weight: bold; font-size: 40px; font-family: cursive;" class="w3-cursive">
+    <div style="font-weight: bold; font-size: 40px; font-family: cursive; padding-bottom: 20px;" class="w3-cursive">
       Welcome!
-      <img alt="Snow" src="./assets/snow.jpg">
+    </div>
+    <div style = "padding-bottom: 10px;">
+      <img alt="Snow" src="./assets/snow.png" style="height: auto; max-width: 50%;">
     </div>
    
         <img alt="Vue logo" src="./assets/CharlesMennerickResume.png">
